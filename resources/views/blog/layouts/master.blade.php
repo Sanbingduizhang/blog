@@ -21,6 +21,8 @@
 
 @yield('content')
 
+@yield('comments')
+
 @include('blog.partials.page-footer')
 
 {{-- Scripts --}}

@@ -46,3 +46,6 @@ Route::get('/blog/{slug}', 'BlogController@showPost')->name('blog.detail');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('contact', 'ContactController@showForm');
+Route::post('contact', 'ContactController@sendContactInfo');

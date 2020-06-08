@@ -493,6 +493,13 @@ class ComposerStaticInitc75978448d7f87b75f372ea4ba7e42b5
     );
 
     public static $prefixesPsr0 = array (
+        'S' => 
+        array (
+            'Suin\\RSSWriter' => 
+            array (
+                0 => __DIR__ . '/..' . '/suin/php-rss-writer/src',
+            ),
+        ),
         'M' => 
         array (
             'Mockery' => 
@@ -537,6 +544,7 @@ class ComposerStaticInitc75978448d7f87b75f372ea4ba7e42b5
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
         'App\\Http\\Controllers\\BlogController' => __DIR__ . '/../..' . '/app/Http/Controllers/BlogController.php',
+        'App\\Http\\Controllers\\ContactController' => __DIR__ . '/../..' . '/app/Http/Controllers/ContactController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
@@ -548,12 +556,15 @@ class ComposerStaticInitc75978448d7f87b75f372ea4ba7e42b5
         'App\\Http\\Middleware\\TrustHosts' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustHosts.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Http\\Requests\\ContactMeRequest' => __DIR__ . '/../..' . '/app/Http/Requests/ContactMeRequest.php',
         'App\\Http\\Requests\\PostCreateRequest' => __DIR__ . '/../..' . '/app/Http/Requests/PostCreateRequest.php',
         'App\\Http\\Requests\\PostUpdateRequest' => __DIR__ . '/../..' . '/app/Http/Requests/PostUpdateRequest.php',
         'App\\Http\\Requests\\TagCreateRequest' => __DIR__ . '/../..' . '/app/Http/Requests/TagCreateRequest.php',
         'App\\Http\\Requests\\TagUpdateRequest' => __DIR__ . '/../..' . '/app/Http/Requests/TagUpdateRequest.php',
         'App\\Http\\Requests\\UploadFileRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UploadFileRequest.php',
         'App\\Http\\Requests\\UploadFolderRequest' => __DIR__ . '/../..' . '/app/Http/Requests/UploadFolderRequest.php',
+        'App\\Mail\\ContactMail' => __DIR__ . '/../..' . '/app/Mail/ContactMail.php',
+        'App\\Mail\\TestMail' => __DIR__ . '/../..' . '/app/Mail/TestMail.php',
         'App\\Models\\Post' => __DIR__ . '/../..' . '/app/Models/Post.php',
         'App\\Models\\Tag' => __DIR__ . '/../..' . '/app/Models/Tag.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
@@ -4444,6 +4455,13 @@ class ComposerStaticInitc75978448d7f87b75f372ea4ba7e42b5
         'SebastianBergmann\\Type\\VoidType' => __DIR__ . '/..' . '/sebastian/type/src/VoidType.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
+        'Suin\\RSSWriter\\Channel' => __DIR__ . '/..' . '/suin/php-rss-writer/src/Suin/RSSWriter/Channel.php',
+        'Suin\\RSSWriter\\ChannelInterface' => __DIR__ . '/..' . '/suin/php-rss-writer/src/Suin/RSSWriter/ChannelInterface.php',
+        'Suin\\RSSWriter\\Feed' => __DIR__ . '/..' . '/suin/php-rss-writer/src/Suin/RSSWriter/Feed.php',
+        'Suin\\RSSWriter\\FeedInterface' => __DIR__ . '/..' . '/suin/php-rss-writer/src/Suin/RSSWriter/FeedInterface.php',
+        'Suin\\RSSWriter\\Item' => __DIR__ . '/..' . '/suin/php-rss-writer/src/Suin/RSSWriter/Item.php',
+        'Suin\\RSSWriter\\ItemInterface' => __DIR__ . '/..' . '/suin/php-rss-writer/src/Suin/RSSWriter/ItemInterface.php',
+        'Suin\\RSSWriter\\SimpleXMLElement' => __DIR__ . '/..' . '/suin/php-rss-writer/src/Suin/RSSWriter/SimpleXMLElement.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\CommandLoader\\CommandLoaderInterface' => __DIR__ . '/..' . '/symfony/console/CommandLoader/CommandLoaderInterface.php',
         'Symfony\\Component\\Console\\CommandLoader\\ContainerCommandLoader' => __DIR__ . '/..' . '/symfony/console/CommandLoader/ContainerCommandLoader.php',
